@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.about-img{
+    width: 100%;
+    height: 13rem;
+    filter: brightness(0.3);
+  }
+  .button1 {
+    padding: 0.5rem 1.2rem;
+    background-color: #FCB72B;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 1rem;
+   width: 8rem;
+   height: 2.5rem;
+  }
+  .button1:hover {
+    background-color: #e76f51;
+  }
+  .img2{
+    width:380px ;
+    height: 380px;
+    border-radius: 50%;
+  }
+  .section-3{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* margin-left: 60px; */
+    margin-top: 150px;
+  }
+  .card-1{
+    order: 1;
+  }
+  .card-2{
+    order: 2;
+  }
+  .h3{
+    font-size: 3rem;
+        margin-top: 1rem;
+        color: #495567;
+    }
+  @media (max-width: 480px) {
+    .card-1{
+        margin-left: 30px;
+        order: 1;
+    }
+    .img2{
+        width: 250px;
+        height: 250px;
+        margin-top: 30px;
+    }
+    .card-1{
+        order: 2;
+    }
+    .button1{
+        margin-left: 75px;
+    }
+  }
+  .p2{
+    margin-top: 1rem;
+  }
+  .bitmap-img{
+    border-radius: 50%;
+  }
+  .card0{
+    text-align: center;
+    
+  }
+  .about{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  @media (max-width:480px) {
+    .about{
+      margin-left: 0;
+    }
+  }
+  .h13{
+    text-align: center;
+    font-size: 3rem;
+    color: #495567;
+    margin-bottom: 1rem;
+    margin-top: 12rem;
+  }
+  .sum{
+    text-align: center;
+    width: 35rem;
+    height: 12rem;
+    background-color: rgb(240, 239, 239);
+    color:  #495567;
+    font-size: 2rem;
+  }
+  .det{
+    font-size: 1.3rem;
+  }
+  .container5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 7rem;
+    background-color: rgb(240, 239, 239);
+    margin-top:30px ;
+  }
+
+  .button2 {
+    padding: 0.5rem 1.2rem;
+    background-color: #FCB72B;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+   width: 8rem;
+   height: 2.5rem;
+   margin-right: 3rem;
+  }
+  .button2:hover {
+    background-color: #e76f51;
+  }
+  .career{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  }
+  .h{
+    margin-left: 1rem;
+    font-size: 1.8rem;
+  }
+  p{
+    margin-left: 1rem;
+  }
+  @media (max-width:480px) {
+    .container5{
+        flex-direction: column;
+        text-align: center;
+        height: 8rem;
+    }
+    .h{
+        font-size: 1.3rem;
+    }
+    .button2{
+        margin-left: 3rem;
+        height: 2rem;
+    }
+  }
